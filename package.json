@@ -1,0 +1,48 @@
+{
+	"name": "@btakita/ui--browser--briantakita",
+	"type": "module",
+	"version": "0.0.0",
+	"types": "./index.ts",
+	"description": "UI library targeting the browser for briantakita",
+	"keywords": [
+		"rappstack",
+		"reactive",
+		"full-stack",
+		"ui",
+		"browser",
+		"blog"
+	],
+	"homepage": "https://github.com/btakita/ui--browser--briantakita",
+	"bugs": {
+		"url": "https://github.com/btakita/ui--browser--briantakita/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/btakita/ui--browser--briantakita.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"exports": {
+		".": "./index.ts",
+		"./layout": "./layout/index.ts",
+		"./layout/hyop": "./layout/hyop/index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"layout"
+	],
+	"dependencies": {
+		"@rappstack/ui--browser": "workspace:*",
+		"ctx-core": "^6.7.0",
+		"rmemo": "^0.48.0"
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.4.3"
+	}
+}
