@@ -36,8 +36,8 @@
 	],
 	"dependencies": {
 		"@rappstack/ui--browser": "workspace:*",
-		"ctx-core": "^7.1.0",
-		"rmemo": "^0.50.0"
+		"ctx-core": "^7.1.1",
+		"rmemo": "^0.50.2"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
