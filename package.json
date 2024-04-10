@@ -36,13 +36,13 @@
 	],
 	"dependencies": {
 		"@rappstack/ui--browser": "workspace:*",
-		"ctx-core": "^7.1.4",
-		"rmemo": "^0.50.5"
+		"ctx-core": "^7.1.5",
+		"rmemo": "^0.50.6"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
 	},
 	"peerDependencies": {
-		"typescript": "^5.4.4"
+		"typescript": "^5.4.5"
 	}
 }
