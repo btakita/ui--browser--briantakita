@@ -35,7 +35,7 @@
 		"layout"
 	],
 	"dependencies": {
-		"@rappstack/ui--browser": "workspace:*",
+		"@rappstack/ui--browser": "^0.1.1",
 		"ctx-core": "^7.2.32",
 		"rmemo": "^0.51.32"
 	},
